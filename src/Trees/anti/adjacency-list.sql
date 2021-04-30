@@ -1,4 +1,4 @@
-CREATE DATABASE trees;
+CREATE DATABASE IF NOT EXISTS trees;
 
 USE trees;
 
