@@ -19,7 +19,7 @@ $ cd sql-anti-pattern-exercise
 
 ```bash
 $ docker-compose up -d
-$ mysql -u user -p password
+$ mysql --host 127.0.0.1 --port 3306 -u root -p rootpassword
 ```
 
 ## License

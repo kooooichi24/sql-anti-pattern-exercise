@@ -5,7 +5,6 @@ services:
     image: mysql:5.7
     container_name: sql-anti-pattern-db
     environment:
-      MYSQL_DATABASE: sample_db
       MYSQL_USER: user
       MYSQL_PASSWORD: password
       MYSQL_ROOT_PASSWORD: rootpassword
