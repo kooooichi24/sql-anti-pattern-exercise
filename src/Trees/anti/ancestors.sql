@@ -7,7 +7,7 @@ SELECT
   m3.*,
   m4.*
 FROM
-  Message m1
-  LEFT OUTER JOIN Message m2 ON m2.parent_message_id = m1.id
-  LEFT OUTER JOIN Message m3 ON m3.parent_message_id = m2.id
-  LEFT OUTER JOIN Message m4 ON m4.parent_message_id = m3.id;
+  Message_Anti m1
+  LEFT OUTER JOIN Message_Anti m2 ON m2.parent_message_id = m1.id
+  LEFT OUTER JOIN Message_Anti m3 ON m3.parent_message_id = m2.id
+  LEFT OUTER JOIN Message_Anti m4 ON m4.parent_message_id = m3.id;
