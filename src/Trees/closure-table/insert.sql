@@ -11,7 +11,7 @@ INSERT INTO
   tree_paths (ancestor, descendant)
 SELECT
   t.ancestor,
-  LAST_INSERT_ID()
+  8
 FROM
   tree_paths t
 WHERE
@@ -19,5 +19,5 @@ WHERE
 UNION
 ALL
 SELECT
-  LAST_INSERT_ID(),
-  LAST_INSERT_ID();
+  8,
+  8;
